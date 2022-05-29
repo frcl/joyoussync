@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+*~
+*.bak
+.cache
+*.sqlite3
+
+*.egg
+*.egg-info/
+.coverage
+.tox
+/.eggs/
+build/
+dist/
