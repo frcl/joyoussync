@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import re
 
 
@@ -25,7 +25,7 @@ setup(
     author='Lars Franke',
     author_email='frcl@mailbox.org',
     license='MIT',
-    packages=['joyoussync'],
+    packages=find_packages(),
     install_requires=[
         'Django',
         'wagtail',
